@@ -3,6 +3,9 @@
 #include "../../core/llaisys_core.hpp"
 #include "../../utils.hpp"
 
+#include <limits>
+#include <iostream>
+
 namespace llaisys::ops {
 
     // 定义一个模板函数，同时处理float，fp16,bf16
